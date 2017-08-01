@@ -17,7 +17,7 @@ function topic() {
 }
 
 topic "Downloading llvm"
-wget -O llvm.tar.gz -nv http://famreiser.ch/llvm/llvm-5.0-heroku-20170613.tar.gz | indent
+wget -O llvm.tar.gz -nv http://famreiser.ch/llvm/llvm-6.0-heroku-20170801.tar.gz | indent
 
 topic "Extracting llvm"
 mkdir $BUILD_DIR/llvm
